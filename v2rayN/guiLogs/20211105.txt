@@ -1,0 +1,17 @@
+--------------------------------info[22:11:57]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.14 - 2021/04/17
+
+ 
+--------------------------------Unable to connect to the remote server[22:20:15]--------------------------------
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10809
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.SpeedtestHandler.GetRealPingTime(String url, WebProxy webProxy, Int32& responseTime)
+
+ 
+--------------------------------info[22:21:58]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.20 - 2021/07/07
+
+ 

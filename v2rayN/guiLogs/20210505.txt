@@ -1,0 +1,54 @@
+--------------------------------info[14:18:10]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.13 - 2021/03/21
+
+ 
+--------------------------------info[14:24:16]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.13 - 2021/03/21
+
+ 
+--------------------------------info[14:26:48]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.13 - 2021/03/21
+
+ 
+--------------------------------info[14:36:19]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.13 - 2021/03/21
+
+ 
+--------------------------------Unable to connect to the remote server[14:38:03]--------------------------------
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10809
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.SpeedtestHandler.GetRealPingTime(String url, WebProxy webProxy, Int32& responseTime)
+
+ 
+--------------------------------info[14:38:21]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.14 - 2021/04/17
+
+ 
+--------------------------------Unable to connect to the remote server[14:38:45]--------------------------------
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:10809
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.SpeedtestHandler.GetRealPingTime(String url, WebProxy webProxy, Int32& responseTime)
+
+ 
+--------------------------------info[14:39:12]--------------------------------
+System.Exception: Failed to call AssignProcessToJobObject! GetLastError=5
+
+ 
+--------------------------------info[14:39:47]--------------------------------
+System.Exception: Failed to call AssignProcessToJobObject! GetLastError=5
+
+ 
+--------------------------------info[14:40:00]--------------------------------
+System.Exception: Failed to call AssignProcessToJobObject! GetLastError=5
+
+ 
+--------------------------------info[14:43:30]--------------------------------
+System.Exception: v2rayN start up v2rayN - V4.14 - 2021/04/17
+
+ 
